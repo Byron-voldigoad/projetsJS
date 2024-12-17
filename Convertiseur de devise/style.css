@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+.convert{
+    margin-top: 60px;
+    margin-bottom: -80px;
+}
+.wrapper{
+    margin-left: 30%;
+    margin-top: 100px;
+    background-color: rgb(78, 78, 160);
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10%;
+}
+input,
+select {
+  padding: 0.8rem 1rem;
+  background-color: white;
+  border: 1px solid darkgray;
+  margin-bottom: 60px;
+}
+
+select {
+  cursor: pointer;
+}
+
+input,
+button,
+select {
+  border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 4rem auto 0 auto;
+    pad: 0.5rem 2rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    background-color: rgb(255, 153, 20);
+    border: 1px solid rgb(216, 122, 0);
+    color: inherit;
+    font-weight: bold;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertiseur de distance</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Convertiseur de distances</h1>
+    <div class="convert">
+        <div class="convert-input">
+            <input type="number" name="first-value" id="first-value">
+            <select name="first-unit" id="first-unit">
+                <option value="Km">Kilomètre</option>
+                <option value="m" selected>Mètre</option>
+                <option value="cm">Centimètre</option>
+                <option value="mm">Milimètre</option>
+            </select>
+        </div>
+        
+        <div class="convert-input">
+            <input type="number" name="second-value" id="second-value" disabled>
+            <select name="second-unit" id="second-unit">
+                <option value="Km">Kilomètre</option>
+                <option value="m">Mètre</option>
+                <option value="cm" selected>Centimètre</option>
+                <option value="mm">Milimètre</option>
+            </select>
+        </div>
+</div>
+<button id="convert-btn">Convertir</button>
+    
+</body>
+<script src="app.js"></script>
+</html>
